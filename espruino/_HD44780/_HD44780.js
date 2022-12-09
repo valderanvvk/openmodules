@@ -360,4 +360,6 @@ _HD44780.prototype.printB = function (line, startx, text, clear, maxcount) {
 	return this;
 };
 
-exports._HD44780 = new _HD44780();
+// exports.create = function () {
+// 	return new _HD44780();
+// };
